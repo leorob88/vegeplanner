@@ -215,10 +215,6 @@ img {
     }
 }
 @media (min-width: 768px) {
-    /*body {
-        background: url("images/horizontal back.jpg") center center no-repeat;
-        background-attachment: fixed;
-    }*/
     #root {
         width: 74%;
     }
@@ -273,11 +269,5 @@ img {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-/*@media (min-width: 2560px) {
-    body {
-        background: url("images/horiz large.jpg") center center no-repeat;
-        background-attachment: fixed;
-    }
-}*/
 
 /*risoluzioni min320 576 768 992 1280 2560*/

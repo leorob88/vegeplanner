@@ -21,6 +21,7 @@ function App() {
   const Search = async () => {
     try {
       setComment("Please, wait...");
+      document.getElementById("comment").style.color = "red";
       const response = await axios.get(GetUrl());
       if (document.getElementById("vegan-check").checked) {
         setResults(response.data.results.filter(result => result.vegan));
@@ -30,6 +31,7 @@ function App() {
       if (response.data.results.length === 0) { setComment("Too bad, we have no recipes meeting your needs...") }
       else if (response.data.results.length === 1) { setComment("Alas, we have only 1 recipe meeting your needs..."); }
       else { setComment(`Great! We have ${response.data.results.length} recipes meeting your needs!`); }
+      document.getElementById("comment").style.color = "black";
       scrollPage();
     } catch (error) {
     }
