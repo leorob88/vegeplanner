@@ -15,6 +15,7 @@ body {
 .main-page {
     border-radius: 10px;
     padding-top: 5px;
+    margin-bottom: 64px;
     background-color: #FFF;
     display: flex;
     flex-direction: column;
@@ -22,6 +23,7 @@ body {
 .single-page {
     border-radius: 10px;
     padding-top: 5px;
+    margin-bottom: 64px;
     background-color: #FFF;
     display: flex;
     flex-direction: column;
@@ -29,6 +31,7 @@ body {
 .general-page {
     border-radius: 10px;
     padding-top: 5px;
+    margin-bottom: 64px;
     background-color: #FFF;
 }
 .banner {
