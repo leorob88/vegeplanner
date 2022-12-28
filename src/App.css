@@ -1,6 +1,7 @@
 body {
-    background: url("images/vertical back.jpg") center center no-repeat;
+    background: url("images/vertical back.jpg") center center;
     background-attachment: fixed;
+    background-size: 100%;
     display: flex;
     justify-content: center;
     font-family: "Quicksand", "Verdana", "Arial", serif;
