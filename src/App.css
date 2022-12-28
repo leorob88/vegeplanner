@@ -136,7 +136,7 @@ img {
     height: 40px;
     text-align: center;
     position: fixed;
-    bottom: 20px;
+    bottom: 66px;
     visibility: hidden;
 }
 #to-top:hover {
@@ -188,6 +188,9 @@ img {
 }
 .single-image {
     max-width: 300px;
+}
+.ingredients, .instructions{
+    padding-right: 30px;
 }
 @media (min-width: 576px) {
     #root {
