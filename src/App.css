@@ -80,7 +80,7 @@ h4 {
 .welcome, .accordion-title, .reset-button, #search, #comment, .text-and-button, .single-page, .general-page {
     padding-left: 10px;
 }
-h3, h4, .reset-button, #search, .text-and-button, .single-page {
+h3, h4, .reset-button, #search, .text-and-button {
     margin-bottom: 7px;
 }
 .general-page {
