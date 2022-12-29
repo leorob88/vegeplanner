@@ -1,5 +1,5 @@
-import { Link, Route, Routes } from "react-router-dom";
-import React, { useEffect } from 'react';
+import { Link, Route, Routes, useLocation } from "react-router-dom";
+import React, { useEffect, useLayoutEffect } from 'react';
 import { useState } from "react";
 import axios from "axios";
 import GetUrl from './components/getUrl';
@@ -13,6 +13,14 @@ import Contacts from "./components/contacts";
 import SingleRecipe from "./pages/views/features/singlerecipe";
 import About from "./pages/views/features/about";
 import Error from "./pages/views/features/error";
+
+const Wrapper = ({children}) => {
+  const location = useLocation();
+  useLayoutEffect(() => {
+    document.documentElement.scrollTo(0, 0);
+  }, [location.pathname]);
+  return children
+}
 
 function App() {
 
@@ -76,6 +84,7 @@ function App() {
 
   return (
     <>
+    <Wrapper />
       <Banner />
       <nav id="navbar">
         <ul className="navbar">
