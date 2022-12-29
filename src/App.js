@@ -14,7 +14,7 @@ import SingleRecipe from "./pages/views/features/singlerecipe";
 import About from "./pages/views/features/about";
 import Error from "./pages/views/features/error";
 
-const Wrapper = ({children}) => {
+const AutoTopScroll = ({children}) => {
   const location = useLocation();
   useLayoutEffect(() => {
     document.documentElement.scrollTo(0, 0);
@@ -84,7 +84,7 @@ function App() {
 
   return (
     <>
-    <Wrapper />
+    <AutoTopScroll />
       <Banner />
       <nav id="navbar">
         <ul className="navbar">
