@@ -6,6 +6,6 @@ Locate: `&apiKey=${process.env.REACT_APP_API_KEY}`
 
 Edit this to: `&apiKey=YourPersonalApiKey`
 
-You're going to need also node_modules which are not included in this repository.
+You're going to need also Node installed on your system and "node_modules" directory which is not included in this repository.
 
 Then use the console in "vegeplanner-main" directory and the "npm start" command.
