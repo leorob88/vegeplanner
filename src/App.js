@@ -10,9 +10,9 @@ import TextAndButton from './components/textbutton';
 import Results from './components/results';
 import Top from './components/top';
 import Contacts from "./components/contacts";
-import SingleRecipe from "./components/singlerecipe";
-import About from "./components/about";
-import Error from "./components/error";
+import SingleRecipe from "./pages/views/features/singlerecipe";
+import About from "./pages/views/features/about";
+import Error from "./pages/views/features/error";
 
 function App() {
 

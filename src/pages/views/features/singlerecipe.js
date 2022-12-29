@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from "react-router-dom";
-import Ingredients from './ingredients';
-import Instructions from "./instructions";
+import Ingredients from '../../../components/ingredients';
+import Instructions from "../../../components/instructions";
 
 function SingleRecipe(props) {
     const { recipe } = useParams();
