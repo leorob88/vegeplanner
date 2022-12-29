@@ -147,7 +147,6 @@ img {
 }
 .social-title {
     padding-right: 5px;
-    color: #FFF;
 }
 .social-links {
     width: 100vw;
@@ -167,7 +166,7 @@ img {
     padding: 6px;
     padding-top: 15px;
     font-size: 23px;
-    background-color: #FFF;
+    background-color: #3A3;
 }
 .icon-zoom {
     transition: transform .2s;
@@ -180,15 +179,6 @@ img {
     display: flex;
     justify-content: center;
     text-decoration: none;
-}
-.blue {
-    color: royalblue;
-}
-.red {
-    color: red;
-}
-.purple {
-    color: mediumslateblue;
 }
 .single-image {
     max-width: 300px;
